@@ -12,7 +12,7 @@ To create a popup that can send back a message to the parent page
 - The popup must have one text input field and a button
 - Once the button is clicked, the popup should close and send the text of the input field back to Default.aspx
 - Default.aspx should be able to receive and display the text
-- Commit your work to your fork and create a pull request to MatthewKapteyn/InterviewDemo
+- Commit your work to your fork and create a pull request to MatthewKapteyn/InterviewDemo2022
 # Languages Available
 - C# & ASP.NET
 - Javascript
