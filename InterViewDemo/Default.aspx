@@ -2,7 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <p>Hello World</p>
-
+    <input type="button" value="Click Here" onclick="window.open('Popup.aspx')">
+    <asp:Label ID="lbl" runat="server" Text=""></asp:Label>
 </asp:Content>

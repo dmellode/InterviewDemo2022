@@ -11,7 +11,13 @@ namespace InterViewDemo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Page.PreviousPage != null)
+            {
+                Popup last = (Popup)Context.Handler;
+                lbl.Text = last.TextField;
+            }
         }
+
+
     }
 }
